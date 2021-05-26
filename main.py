@@ -1,9 +1,9 @@
 import xlrd
 d = {}
 
-loc = (r"C:\Users\Abhinav\Desktop\french_dictionary.xls")
-fin_loc=(r"C:\Users\Abhinav\Desktop\t8.shakespeare.txt")
-fout_loc=(r"C:\Users\Abhinav\Desktop\translated.txt")
+loc = (r"french_dictionary.xls")
+fin_loc=(r"t8.shakespeare.txt")
+fout_loc=(r"translated.txt")
 
 
 wb = xlrd.open_workbook(loc)
